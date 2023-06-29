@@ -5,6 +5,9 @@ const app = express();
 
 app.set("port",5070);
 
+//middleware
+app.use(express.json());
+
 export default app;
 
 //Routes
